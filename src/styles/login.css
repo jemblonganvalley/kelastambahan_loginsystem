@@ -1,0 +1,104 @@
+
+/* NAVIGASI BAR */
+.navbar{
+    width: 8%;
+    height: 100vh;
+    /* border: 1px solid red; */
+    position: fixed;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.brand, .menu{
+    transform: rotate(90deg);
+}
+
+.brand{
+    font-size: 2rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    user-select: none;
+    gap: 15px;
+}
+
+.menu_item a{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+/* END NAVBAR */
+
+/* LOGIN FORM */
+.login_form{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    gap: 16px;
+    font-size: 1.3rem;
+}
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form_group input{
+    height: 35px;
+    padding: 0 8px;
+    outline: none;
+}
+
+.form_group button{
+    height: 38px;
+    outline: none;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.form_group .helper{
+    font-size: .7rem;
+    display: none;
+}
+/* END LOGIN FORM */
+
+/* BACKGROUND */
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    /* background-color: yellow; */
+}
+
+.background_left, .background_right{
+    /* width: 50%; */
+    flex: 1;
+}
+
+.background_right{
+    background-color: black;
+    height: 100%;
+}
+
+
+/* END BACKFROUND */
